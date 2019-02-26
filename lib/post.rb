@@ -5,7 +5,7 @@ class Post
 
    def initialize(title)
      @title = title
-     @@all << self 
+     @@all << self
    end
 
    def self.all
@@ -20,18 +20,18 @@ class Post
       end
     end
 end
-# 
-# class Song 
-#   attr_accessor :name, :artist 
-# 
+#
+# class Song
+#   attr_accessor :name, :artist
+#
 #   @@all = []
-# 
+#
 #   def initialize(name, artist=nil)
 #     @name = name
 #     @artist = artist
 #     @@all << self
 #   end
-# 
+#
 #   def artist_name
 #     if self.artist
 #       self.artist.name
@@ -39,11 +39,11 @@ end
 #       nil
 #     end
 #   end
-# 
+#
 #   def self.all
 #     @@all
 #   end
 # end
 # 
-# 
-#   
+#
+#

@@ -9,9 +9,7 @@ class Song
    @@all
  end
 
- def artist
-   self
- end
+
 
 
 

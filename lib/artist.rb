@@ -9,10 +9,6 @@ class Artist
       @songs = []
     end
 
-    # def self.songs
-    #   @@songs
-    # end
-
     def add_song(song)
       @@song_count += 1
       @songs << song
@@ -39,27 +35,3 @@ end
 
 
 
-# class Artist
-#   attr_accessor :name
-
-
-#   def initialize(name)
-#     @name = name
-#     @songs = []
-#   end
-#   def songs
-#     @songs
-#   end
-
-#   def add_song(name)
-#   self.songs.name
-#   end
-
-#   # def genres
-#   #   #element becomes song and we asking
-#   #   self.songs.map do |element|
-#   #     element.genre == self
-#   #   end
-# end
-
-# #add_song = Artist.new

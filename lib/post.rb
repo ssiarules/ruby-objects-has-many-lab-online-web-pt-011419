@@ -3,17 +3,12 @@ class Post
 
    def initialize(title)
      @title = title
-     @@all << self
-
    end
 
-   def self.all
-     @@all
-   end
-
-
-
-   def author_name
+  #  def self.all
+  #    @@all
+  #  end
+    def author_name
       if @author == nil
         return nil
       else
@@ -21,3 +16,7 @@ class Post
       end
     end
 end
+
+
+
+  

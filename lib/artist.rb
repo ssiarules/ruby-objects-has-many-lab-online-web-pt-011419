@@ -1,20 +1,20 @@
-class Artist 
-  attr_accessor :name 
+class Artist
+  attr_accessor :name
   @@songs = []
-  
+
   def initialize(name)
-    @name = name 
+    @name = name
     @@songs = []
-  end 
-  
+  end
+
   def songs
     @@songs
-  end 
-  
+  end
+
   def add_song(song)
    @@songs << song
-   song.artist = self 
-  end 
+   song.artist = self
+  end
 
 
  def add_song_by_name(name)
@@ -22,11 +22,11 @@ class Artist
    @songs << song
    song.artist = self
  end
- 
+
  def self.song_count
-   
-end 
-end 
+
+end
+end
 
 
 
@@ -39,26 +39,26 @@ end
 
 
 # class Artist
-#   attr_accessor :name 
-  
-  
+#   attr_accessor :name
+
+
 #   def initialize(name)
-#     @name = name 
+#     @name = name
 #     @songs = []
-#   end 
-#   def songs
-#     @songs 
-#   end 
-  
-#   def add_song(name)
-#   self.songs.name 
 #   end
-  
-#   # def genres 
+#   def songs
+#     @songs
+#   end
+
+#   def add_song(name)
+#   self.songs.name
+#   end
+
+#   # def genres
 #   #   #element becomes song and we asking
 #   #   self.songs.map do |element|
-#   #     element.genre == self 
-#   #   end 
-# end 
+#   #     element.genre == self
+#   #   end
+# end
 
-# #add_song = Artist.new 
+# #add_song = Artist.new

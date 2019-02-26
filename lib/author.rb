@@ -1,21 +1,21 @@
-class Author 
+class Author
   attr_accessor :name, :post
   @@posts = []
-  
+
   def initialize(name)
-    @name = name 
+    @name = name
     @posts = []
   end
-  
+
   def posts
     @@posts
-  end 
-  
-  def add_post 
-  end 
-  
-  
-end 
+  end
+
+  def add_post
+  end
+
+
+end
 
 
 
@@ -30,16 +30,16 @@ end
 
 
 
-# class Author 
+# class Author
 #   attr_accessor :name
 #   @@posts = []
-  
-#   def initialize (name)
-#     @name = name 
-   
-#   end 
-#   def posts 
-    
-#   end 
 
-# end 
+#   def initialize (name)
+#     @name = name
+
+#   end
+#   def posts
+
+#   end
+
+# end
